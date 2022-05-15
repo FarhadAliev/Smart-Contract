@@ -1,3 +1,3 @@
 # Smart-Contract
-Create smart contract with Solidity programmin language and connect to Web3 via Rinkeby
+Create smart contract with Solidity programming language and connect to Web3 via Rinkeby
 
