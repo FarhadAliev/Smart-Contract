@@ -1,0 +1,21 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "ganache": "ganache --wallet.seed myCustomSeed",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider; ng build"
+  },
+  "keywords": [],
+  "author": "Farhad",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.8",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^10.0.0",
+    "solc": "^0.8.13",
+    "web3": "^1.7.3"
+  }
+}
