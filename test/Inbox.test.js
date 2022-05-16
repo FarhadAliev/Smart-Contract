@@ -4,8 +4,10 @@ const Web3 = require('web3');
 require('dotenv').config();
 const provider = process.env.LOCAL_URI
 const web3 = new Web3(provider);
-const {interface,bytecode} = require('../compile');
+const compiledFile = require('../compile');
 
+const interface = compiledFile.abi;
+const bytecode = compiledFile.evm.bytecode.object;
 let acconts;
 let inbox;
 let initial_string = 'Hello';
